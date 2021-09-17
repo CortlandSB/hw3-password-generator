@@ -1,7 +1,7 @@
-// List of special characters. Expand it to spec in README.
+// List of special characters.
 let special = ["!", "?", "$", "#", "%", " ", "\"", "&", "\'", "(", ")", "*", "+", "-", ",", ".", "/", ":", ";", "<", ">", "=", "@", "[", "]", "\\", "^", "_", "`", "{", "}", "|", "~"];
 
-// We should validate the settings before generating the password.
+// Validate the settings before generating the password.
 // It is best practice to separate the validation and generation logic.
 function validateSettings(length, types) {
 
@@ -81,7 +81,6 @@ function writePassword() {
 	passwordText.value = password;
 }
 
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Add event listener to generate button
